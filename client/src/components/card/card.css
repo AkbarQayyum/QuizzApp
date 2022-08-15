@@ -1,0 +1,34 @@
+.mainDiv
+{
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.8);
+    padding: 25px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+}
+.mainDiv p
+{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.upperDiv
+{
+
+    text-align: center;
+    width: 100%;
+}
+.lowerdiv
+{
+    width: 100%;
+    text-align: center;
+}
+.btn{
+    padding:10px;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px 3px rgba(200, 200, 200, 0.8);
+}

@@ -1,0 +1,12 @@
+.list{
+    color:rgb(78, 55, 55)
+}
+.list:first-child{
+    color: white;
+    color: rgb(18, 95, 91);
+}
+.list:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    color: rgb(18, 95, 91);
+}

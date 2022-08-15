@@ -1,0 +1,32 @@
+.parentShowCourses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.childShowCourses{
+    padding: 50px 0px;
+    box-shadow: 0px 0px 5px 6px rgba(180,200,200,0.8);
+    margin: 30px ;
+    width: 200px;
+    font-weight: bold;
+text-align: center;
+}
+.headingSC{
+    padding: 20px;
+}
+.headingSC h2
+{
+    color: rgb(18, 95, 91);
+    text-align: center;
+}
+.headingSC p{
+    color: rgb(18, 95, 91);
+    margin: 10px;
+    text-align: center;
+}
+.childShowCourses:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.4s;
+    box-shadow: 0px 0px 5px 6px rgba(180,200,200,0.5);
+}

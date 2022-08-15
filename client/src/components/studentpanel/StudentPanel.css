@@ -1,0 +1,127 @@
+.studentNav
+{
+    text-align: center;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px auto;
+    
+    box-shadow: 0px 0px 2px 3px rgba(210, 210, 210, 0.8);
+}
+.studentNav button
+{
+    font-weight: bold;
+    color: rgb(18, 95, 91);
+   padding:10px;
+    background: none;
+    border: none;
+   
+}
+.studentNav button:hover{
+    cursor: pointer;
+    transform:scaleX(1.05);
+    transition: 0.4s;
+    border-bottom:2px solid gray;
+}
+.parentstudentprofile{
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: 0px 0px 2px 3px rgba(210, 210, 210, 0.8);
+    margin: 20px auto;
+    padding: 20px;
+}
+.childstudentprofile{
+    box-shadow: 0px 0px 2px 3px rgba(210, 210, 210, 0.8);
+    text-align: justify;
+   
+    padding: 15px;
+}
+
+.editbutton{
+    padding: 15px 20px;
+    margin: 20px auto;
+    background: none;
+    border: none;
+    box-shadow: 0px 0px 5px 5px rgba(210, 210, 210, 0.8);
+    font-weight: bolder;
+}
+.editbutton:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+    box-shadow: 0px 0px 2px 2px rgba(210, 210, 210, 0.9);
+    
+}
+.childstudentprofile span{
+    font-weight: bold;
+}
+.detailTakeQuizz{
+    padding:10px;
+    color:rgb(18, 95, 91);
+    font-weight:bold;
+    margin:10px;
+    text-align:center;
+   box-shadow: 0px 0px 4px 4px rgba(210, 210, 210, 0.8);
+}
+.mainTakeQuizz
+{
+    padding:20px;
+    text-align: center;
+    width: 100%;
+    color:rgb(18, 95, 91);
+    margin:20px auto;
+    box-shadow:0px 0px 4px 4px rgba(210,210,210,0.9);
+}
+.Options{
+    box-shadow:0px 0px 2px 4px rgba(210,210,210,0.5);
+    margin:10px;
+    padding:15px;
+}
+.showresultcontainer{
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 10px auto;
+
+ 
+}
+.childsshowresul .showresultimg{
+    width: 50%;
+    margin: 10px auto;
+}
+.childsshowresul .showresultimg img{
+    width:40%;
+    margin: 10px auto;
+}
+.childsshowresul{
+    margin:10px auto;
+    font-weight: bold;
+}
+childsshowresul h2
+{
+    color:rgb(18, 95, 91);
+    font-weight: bold; 
+}
+.bt{
+    padding:10px 20px;
+    background: none;
+    border: none;
+    margin: 10px auto;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(21, 243, 232, 0.315),rgba(28, 187, 192, 0.884));
+}
+.bt:hover{
+    transform: scale(1.04);
+    transition: 0.4s;
+    background: linear-gradient(to right, rgba(8, 194, 138, 0.89),rgba(26, 230, 196, 0.884));
+    border-radius: 10px 15px;
+}
+.green{
+    background-color: rgba(11, 250, 11, 0.774);
+    padding: 10px;
+    border-radius: 30px;
+}
+.red{
+    background-color: rgba(189, 15, 15, 0.74);
+    padding: 10px;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 0.973);
+   text-decoration: line-through;
+}
